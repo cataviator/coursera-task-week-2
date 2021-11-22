@@ -10,8 +10,7 @@ body {
 
 p {
 	background-color: #deffde;
-	padding: 10px;
-
+	padding: 20px;
 }
 
 /*---Desktop version---*/
@@ -34,5 +33,6 @@ p {
 @media (max-width: 767px) {
 	.col-sm-12 {
 		width: 100%;
+		float: left;
 	}
 }

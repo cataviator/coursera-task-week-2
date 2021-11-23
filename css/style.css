@@ -22,8 +22,8 @@ img {
 }
 
 .paragraph {
-	background-color: #deffde;
 	background-image: url("/images/paragraph-craft.jpg");
+	background-color: #deffde;
 	padding: 0;
 	position: relative;
 	hyphens: auto;

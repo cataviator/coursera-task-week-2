@@ -5,35 +5,53 @@ body {
 }
 
 h1 {
-	font-size: 300%;
+	font-size: 350%;
 	color: #125718;
 	text-align: center;
 	font-style: bold;
 	font-family: 'Bree Serif', 'Helvetica', sans-serif;
 }
+h1:hover {
+	color: #72b350;
+}
+
+img {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
 
 .paragraph {
 	background-color: #deffde;
-
-	/*position: relative;*/
+	background-image: url("/images/paragraph-craft.jpg");
+	padding: 0;
+	position: relative;
+	hyphens: auto;
+	border-radius: 28px;
 }
 
 .box-header {
-	/*position: absolute;*/
-	float: right;
+	position: absolute;
+	right: 0;
+	/*float: right;*/
 	top: 0px;
 	background-color: #125718;
-	padding: 5px 15px;
+	padding: 7px 17px 10px;
 	color: white;
 	font-family: 'Bree Serif', 'Helvetica', sans-serif;
-	font-size: 120%;
+	font-size: 150%;
 	text-align: center;
+	border-radius: 0px 0px 0px 15px;
+}
+
+.box-header:hover {
+	background-color: #659e47;
 }
 
 .box-description {
 	clear: both;
 	margin: 5px;
-	padding: 15px;
+	padding: 8px 10px 15px 15px;
 }
 
 .row {
